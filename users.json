@@ -7,35 +7,35 @@
         "dept_id": null
     },
     "vicedoyen": {
-        "password": "2a9d1142ea3d2a6c2f2c0a8e5d5d5d5d5d5d5d5d5d5d5d5d5d5d5d5d5d5d5d5d",
+        "password": "384fe335d04e0940d1c4daafafb8ec3f997ee5cd841a8dc67d18d397668a0c05",
         "role": "vicedoyen",
         "nom": "Pr. Ahmed Alami",
         "email": "vicedoyen@univ.fr",
         "dept_id": null
     },
     "chef_info": {
-        "password": "d5d5d5d5d5d5d5d5d5d5d5d5d5d5d5d5d5d5d5d5d5d5d5d5d5d5d5d5d5d5d5d5",
+        "password": "5720e7889d270997c342a8e7eee5d424e0266726b90dbd7b6d59b4ae2e37e0d3",
         "role": "chef_dept",
         "nom": "Pr. Fatima Benani",
         "email": "chef.info@univ.fr",
         "dept_id": 31
     },
     "chef_maths": {
-        "password": "e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5",
+        "password": "97c8d1861c8911bfa587537f9a7301814e2a4818583d9d7afc5a1f08ffa6587a",
         "role": "chef_dept",
         "nom": "Pr. Mohamed El Fassi",
         "email": "chef.maths@univ.fr",
         "dept_id": 32
     },
     "prof1": {
-        "password": "f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5",
+        "password": "00624b02e1f9b996a3278f559d5d55313552ad2c0bafc82adfd975c12df61eaf",
         "role": "professeur",
         "nom": "Dr. Leila Chraibi",
         "email": "l.chraibi@univ.fr",
         "prof_id": 39
     },
     "etudiant1": {
-        "password": "a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3",
+        "password": "612b65360845261803ad809086cff726f5c4dff0e12fc9b157569879f0ab3953",
         "role": "etudiant",
         "nom": "Youssef El Khayat",
         "email": "youssef.elkhayat@etu.univ.fr",
