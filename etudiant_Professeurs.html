@@ -1,0 +1,115 @@
+<div class="user-interface">
+    <!-- Header avec rôle -->
+    <div class="user-header">
+        <div class="user-info">
+            <h1>📚 Mon Planning d'Examens</h1>
+            <div class="user-role">Étudiant - LICENCE Informatique - Promo 2025</div>
+        </div>
+        <div class="user-avatar">JD</div>
+    </div>
+    
+    <!-- Filtres Rapides -->
+    <div class="quick-filters">
+        <div class="filter-group">
+            <label>Département:</label>
+            <select>
+                <option selected>Informatique</option>
+                <option>Mathématiques</option>
+                <option>Tous</option>
+            </select>
+        </div>
+        
+        <div class="filter-group">
+            <label>Formation:</label>
+            <select>
+                <option selected>LICENCE Informatique</option>
+                <option>LICENCE MIAGE</option>
+                <option>Toutes</option>
+            </select>
+        </div>
+        
+        <div class="filter-group">
+            <label>Période:</label>
+            <select>
+                <option>Semaine en cours</option>
+                <option selected>Janvier 2026</option>
+                <option>Tout le semestre</option>
+            </select>
+        </div>
+        
+        <button class="btn-export">📥 Exporter (iCal)</button>
+    </div>
+    
+    <!-- Affichage Planning -->
+    <div class="schedule-view">
+        <!-- Vue Calendrier -->
+        <div class="calendar-view">
+            <div class="calendar-header">
+                <button>‹</button>
+                <h3>Janvier 2026</h3>
+                <button>›</button>
+            </div>
+            
+            <div class="calendar-grid">
+                <div class="calendar-day">
+                    <div class="day-header">Lun 12</div>
+                    <div class="exam-slot">
+                        <strong>Algorithmique</strong>
+                        <div>09:00 - 10:30</div>
+                        <div>Salle: Amphi A</div>
+                    </div>
+                </div>
+                
+                <div class="calendar-day">
+                    <div class="day-header">Mar 13</div>
+                    <div class="exam-slot">
+                        <strong>Base de Données</strong>
+                        <div>14:00 - 15:30</div>
+                        <div>Salle: B201</div>
+                    </div>
+                </div>
+                <!-- Plus de jours... -->
+            </div>
+        </div>
+        
+        <!-- Liste détaillée -->
+        <div class="list-view">
+            <h4>Mes Examens à Venir</h4>
+            <div class="exam-list">
+                <div class="exam-item">
+                    <div class="exam-date">12 Jan</div>
+                    <div class="exam-details">
+                        <strong>Algorithmique</strong>
+                        <div>09:00-10:30 • Amphi A</div>
+                    </div>
+                    <div class="exam-status">🟢 Confirmé</div>
+                </div>
+                
+                <div class="exam-item">
+                    <div class="exam-date">13 Jan</div>
+                    <div class="exam-details">
+                        <strong>Base de Données</strong>
+                        <div>14:00-15:30 • B201</div>
+                    </div>
+                    <div class="exam-status">🟢 Confirmé</div>
+                </div>
+                <!-- Plus d'examens... -->
+            </div>
+        </div>
+    </div>
+    
+    <!-- Pour les Professeurs -->
+    <div class="professor-specific">
+        <h3>👨‍🏫 Mes Surveillances</h3>
+        <div class="surveillance-stats">
+            <div>Total: 12 sessions</div>
+            <div>Heures: 18h</div>
+            <div>Charge équilibrée: Oui</div>
+        </div>
+    </div>
+    
+    <!-- Recherche -->
+    <div class="search-section">
+        <input type="text" placeholder="🔍 Rechercher un module, une salle...">
+    </div>
+</div>

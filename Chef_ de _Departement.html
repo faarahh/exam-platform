@@ -1,0 +1,79 @@
+<div class="department-dashboard">
+    <h1>👨‍💼 Tableau de Bord - Département d'Informatique</h1>
+    
+    <!-- En-tête avec validation -->
+    <div class="department-header">
+        <div class="status-badge pending">🟡 En attente de validation</div>
+        <button class="btn-validate-dept">✅ Valider pour le département</button>
+        <button class="btn-request-changes">✏️ Demander des modifications</button>
+    </div>
+    
+    <!-- Statistiques Département -->
+    <div class="dept-stats">
+        <div class="stat-card">
+            <h4>📚 Formations</h4>
+            <div class="stat-value">4 formations</div>
+            <div class="stat-detail">LICENCE MIAGE, MASTER IA...</div>
+        </div>
+        
+        <div class="stat-card">
+            <h4>👥 Étudiants</h4>
+            <div class="stat-value">320</div>
+        </div>
+        
+        <div class="stat-card">
+            <h4>⚠️ Conflits</h4>
+            <div class="stat-value">5</div>
+            <div class="stat-detail">Tous résolus</div>
+        </div>
+        
+        <div class="stat-card">
+            <h4>📅 Examens</h4>
+            <div class="stat-value">45 sessions</div>
+        </div>
+    </div>
+    
+    <!-- Liste des Conflits par Formation -->
+    <div class="conflicts-by-formation">
+        <h3>Conflits par Formation</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Formation</th>
+                    <th>Conflits Étudiants</th>
+                    <th>Conflits Salles</th>
+                    <th>Statut</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>LICENCE Informatique</td>
+                    <td>2</td>
+                    <td>0</td>
+                    <td><span class="status-resolved">✅ Résolu</span></td>
+                </tr>
+                <tr>
+                    <td>MASTER IA</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td><span class="status-pending">🟡 En cours</span></td>
+                </tr>
+                <!-- Plus de lignes... -->
+            </tbody>
+        </table>
+    </div>
+    
+    <!-- Planning Départemental -->
+    <div class="dept-schedule">
+        <h3>📅 Emploi du Temps - Département Informatique</h3>
+        <div class="schedule-view">
+            <!-- Vue calendrier/semaine -->
+            [Affichage type calendrier avec examens]
+        </div>
+        <div class="filters">
+            <button class="filter-btn active">Toutes formations</button>
+            <button class="filter-btn">LICENCE</button>
+            <button class="filter-btn">MASTER</button>
+        </div>
+    </div>
+</div>

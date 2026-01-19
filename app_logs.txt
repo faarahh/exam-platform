@@ -1,0 +1,8 @@
+[2025-12-24 17:25:01] [system] DATABASE: Connexion réussie à MySQL
+[2025-12-24 17:26:04] [system] TEST: Test connexion réussi
+[2025-12-24 17:26:08] [system] NAVIGATION: Ouverture des logs complets
+[2025-12-24 17:26:09] [system] NAVIGATION: Ouverture des logs complets
+[2025-12-24 17:26:13] [system] NAVIGATION: Ouverture des logs complets
+[2025-12-24 17:26:26] [system] NAVIGATION: Ouverture des logs complets
+[2025-12-24 17:26:28] [system] NAVIGATION: Ouverture des logs complets
+[2025-12-24 17:31:21] [system] DATABASE: Connexion MySQL réussie
